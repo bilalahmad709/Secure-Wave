@@ -164,7 +164,7 @@
 .strength-row{
     background: url('/Assets/Images/Strength-bg.png');
     min-height: 250px;
-    max-height: 450px ;
+    max-height: auto ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
