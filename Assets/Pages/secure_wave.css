@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.nav-link:hover{
+    font-weight: bolder;
+}
+.spanColor{
+    color: #2a70f0;
+}
+.sign-up-btn{
+    background-color:#2a70f0 ;
+}
+.lightblack{
+    color:rgb(103, 102, 102)
+}
+.get-started-btn{
+    background-color:#2a70f0 ;
+}
+.free-consult-btn{
+    border:2px solid #2a70f0;
+    color: #2a70f0;
+}
+
+.cards-row{
+    background:conic-gradient(#2a70f0 0deg 90deg, white 90deg 270deg, #2a70f0 270deg 360deg );
+    min-height: 200px;
+    max-height: auto;
+
+}
+.cards{
+    min-width: 180px;
+    max-width: 200px;
+    box-shadow: 1px 1px 10px black, -1px -1px ;
+    border-radius: 2px;
+    
+}
+@media screen and (max-width:1024px){
+    .cards-row{
+        background: #2a70f0;
+    }
+    
+}
+.icon-div{   
+    background-color: #2a70f0;
+    width: 70px;
+    height: 70px;
+    clip-path: polygon(50% 0%, 90% 20%, 89% 77%, 50% 97%, 46% 96%, 11% 74%, 10% 20%);
+}
+.read-more-btn{
+    background: #2a70f0;
+}
+
+/* slider */
+.carousel-item{
+    background: #2a70f0;
+    min-height: 240px;
+    height: 300px;
+}
+
+/* media querry for for slider icons */
+
+@media screen and (min-width:200px) and (max-width:319px){
+    .carousel-control-prev{
+           margin-left: 85%;
+           bottom: 80%;
+    }
+    .carousel-control-next{
+          top: 85%;
+    }
+    
+}
+@media screen and (min-width:320px) and (max-width:374px){
+    .carousel-control-prev{
+           margin-left: 85%;
+           bottom: 80%;
+    }
+    .carousel-control-next{
+          top: 85%;
+    }
+    
+}
+
+@media screen and (min-width:375px) and (max-width:424px){
+    .carousel-control-prev{
+           margin-left: 85%;
+           bottom: 80%;
+    }
+    .carousel-control-next{
+          top: 85%;
+    }
+    
+}
+
+@media screen and (min-width:425px) and (max-width:767px){
+    .carousel-control-prev{
+           margin-left: 85%;
+           bottom: 80%;
+    }
+    .carousel-control-next{
+          top: 85%;
+    }
+    
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    .carousel-control-prev{
+           margin-left: 100%;
+           bottom: 20%;
+    }
+    .carousel-control-next{
+        margin-right: -15%;
+        top:15%
+          
+    }
+    
+}
+@media screen and (min-width:1024px) and (max-width:1439px){
+    .carousel-control-prev{
+           margin-left: 100%;
+           bottom: 20%;
+    }
+    .carousel-control-next{
+        margin-right: -15%;
+        top:15%
+          
+    }
+    
+}
+
+@media screen and (min-width:1440px) and (max-width:2560px){
+    .carousel-control-prev{
+           margin-left: 100%;
+           bottom: 20%;
+    }
+    .carousel-control-next{
+        margin-right: -15%;
+        top:15%
+          
+    }
+    
+}
+
+
+
+.carousel-control-prev span i{
+    background: #2a70f0;
+    border-radius: 50%;
+}
+.carousel-control-next span i{
+    background: #2a70f0;
+    border-radius: 50%;
+}
+
+.slider-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+/* Strengthen row css */
+.strength-row{
+    background: url('/Assets/Images/Strength-bg.png');
+    min-height: 250px;
+    max-height: 450px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
